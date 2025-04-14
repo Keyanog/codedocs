@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: codedocs
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    rootDir: .
+    buildFilter:
+      paths:
+        - ./*
+    staticPublishPath: dist
