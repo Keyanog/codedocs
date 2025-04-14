@@ -1,0 +1,71 @@
+/* General Styles */
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .sub-list {
+    list-style-type: circle;
+    padding-left: 40px;
+  }
+  
+  .link {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Code Block Styles */
+  .code-card {
+    background-color: #f4f4f4;  /* Light grey background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .code {
+    background-color: #fafafa;  /* Even lighter grey background */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;  /* Dark text color for better contrast */
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    white-space: pre-wrap;  /* Allow long lines to wrap */
+  }
+  
+  .code pre {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  

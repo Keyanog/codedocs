@@ -1,0 +1,176 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Using a more modern font */
+  background-color: #282c34; /* Dark background */
+  color: #ffffff; /* Lighter text color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for dark mode toggle */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+h1, h2, h3 {
+  color: #61dafb; /* Bright color for headings */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 220px;
+  background-color: #333;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  color: #61dafb;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+  color: #61dafb;
+  transform: scale(1.05); /* Hover effect */
+  transition: transform 0.2s ease;
+}
+
+/* Page Content Styles */
+.page-container {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  transition: padding 0.3s ease;
+}
+
+.page-container h1 {
+  animation: fadeIn 1s ease-out;
+}
+
+.page-container p {
+  animation: fadeIn 1.5s ease-out;
+}
+
+.page-container {
+  color: white; /* Set text color to white */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Dark Mode Toggle (if implemented) */
+.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Add this to your CSS file (e.g., App.css) */
+.video-link {
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+}
+
+.video-link:hover {
+  color: #ff6600;  /* Change color on hover */
+  transform: scale(1.1);  /* Slightly increase size */
+  text-decoration: underline;  /* Underline on hover */
+}
+
+.comparison-table {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.05); /* semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* subtle border */
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  color: #f0f0f0; /* Light text for dark backgrounds */
+}
+
+.comparison-header {
+  display: flex;
+  background: rgba(0, 123, 204, 0.25); /* translucent blue */
+  font-weight: 600;
+  padding: 1rem 0;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comparison-row {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  transition: background 0.2s ease;
+}
+
+.comparison-row:hover {
+  background: rgba(255, 255, 255, 0.05); /* subtle hover */
+}
+
+.cell {
+  flex: 1;
+  padding: 1rem;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.feature {
+  font-weight: 600;
+  color: #66d9ef; /* light cyan */
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.topic-logo {
+  width: 150px;
+  height: auto;
+}
+
+.language-card, .card {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* cards.css or same CSS file */
+.card {
+  font-family: 'Montserrat', sans-serif;
+}
+
+

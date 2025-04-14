@@ -1,0 +1,44 @@
+.golang-container {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+    color: #00acee;
+  }
+  
+  h2 {
+    margin-top: 25px;
+    color: #4cc9f0;
+  }
+  
+  p, li {
+    line-height: 1.7;
+    margin: 8px 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  .video-list a {
+    color: #90e0ef;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .video-list a:hover {
+    text-decoration: underline;
+    color: #48cae4;
+  }
+  
+  
+  
